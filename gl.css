@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+  font-size: 11pt; /* Размер основного шрифта в пунктах  */
+  background-color: #FFE4E1; /* Цвет фона веб-страницы */
+  color: #000000; /* Цвет основного текста */ 
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  color: #Black; /* Цвет заголовка */
+  font-size: 24pt; /* Размер шрифта в пунктах */
+  font-family: Georgia, Times, serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+  text-align: center;
+}
+p {
+  text-align: justify; /* Выравнивание по ширине */
+  margin-left: 60px; /* Отступ слева в пикселах */
+  margin-right: 10px; /* Отступ справа в пикселах */
+ 
+}
+
+#header{
+  width: 100px;
+  height: 100px;
+  background-color: #000000;
+  margin-bottom: 100px;
+  
+}
+
+/* Блок меню*/
+ul{
+  margin: 0;
+  padding: 0;
+}
+ul.menu li {
+ 
+ 
+  float: left; /*делаем меню горизонтальным*/
+ 
+  list-style: none;
+    width: 20%;
+}
+ul.menu li a {
+  background-image: linear-gradient(rgba(255,0,0,.3), rgba(255,245,215,.1));
+  text-decoration: none;
+  border-right: 1px solid #FFFFFF;
+  display: block;
+  padding: 5px 5px 5px 10px;
+
+}
+ul.menu li ul {
+  display: none;	/*скрываем вложенные пункты*/
+}
+ul.menu { /*задаём высоту и ширину меню*/
+   width: 100%;
+}
+ 
+/*Выпадающее меню*/
+ul.menu li:hover {
+  background: yellow;
+  position: relative;
+}
+ul.menu li:hover > ul {
+  border-top: 1px solid white;
+  display: block;
+  position: absolute;
+  padding: 5px 5px 5px 15px;
+  top: 100%; /*первый уровень меню раскрывается вниз*/
+  left: 0;
+}
+/*Второй и последующие уровни вложенности*/
+ul.menu li ul li{
+  border-bottom: 1px solid white;
+  height: auto;
+  width: 150px;
+}
+ul.menu li:hover ul li ul{
+  position: absolute;
+  top: 0;
+  left: 150px; /*второй и последующие уровни расскрываются вправо*/
+}
+
+.col1{
+width: 50%;
+display: inline-block;
+vertical-align: top;
+float:left;
+}
+.col2{
+width: 50%;
+display: inline-block;
+vertical-align: top;
+float:right;
+}
+
+#gall img{
+	display: block;
+	max-width: 100%;
+	margin: 10px;
+}
+
