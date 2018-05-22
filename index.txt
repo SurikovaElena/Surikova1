@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>AmberColor</title>
+  
+   <style>
+   div {
+      background-image: linear-gradient(#EEB5C9, #FFDAB9);
+      width: 1500px;
+      height: 0px;
+		opacity:0.8;
+	}
+  </style>
+  <style>  body {
+    background:  url(b.jpg);
+   } 
+   </style>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  </head>
+ 
+	<body>
+
+ <p> <a href="index.html"> <img src="log2.jpg" width="60" height="60" border="0" alt="Пример"></a></p>
+ <marquee behavior="scroll" direction="left"> 
+ <span style="color:#660033">Девушки, следите за своей красотой! Вы у себя одна! А наш сайт сможет помочь Вам облегчить задачу!</span> </marquee>
+ 
+  <h1 style="font-family: BOOK ANTIQUA ITALIC; font-size: 19; font-color: #00A33E"> Мы всегда рады видеть вас в нашем салоне красоты и отдыха</h1>
+   <div id="menu_itc">
+ <div>
+ <p class="txt" > <a href="y.html">Услуги для мужчин</a>
+  <a href="k.html">Услуги для женщин</a>
+  <a href="v.html">Услуги для детей</a>
+  <a href="n.html">Услуги для животных</a> 
+  <a href="n.html">Магазин товаров собственного производства</a></p>
+  </div>
+</div> 
+ </body>
+</html>

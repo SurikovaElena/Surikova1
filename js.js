@@ -5,6 +5,3 @@ function f3(im) {
 	if(im.height == imagen1) im.height = imagen2;
   else im.height = imagen1;
 }
-but1.onclick = function() {
-	alert ("Заплатите 5000 рублей");
-}

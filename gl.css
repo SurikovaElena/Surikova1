@@ -7,18 +7,13 @@ body {
   padding: 0px;
 }
 h1 {
-  color: #Black; /* Цвет заголовка */
+  color: Black; /* Цвет заголовка */
   font-size: 24pt; /* Размер шрифта в пунктах */
   font-family: Georgia, Times, serif; /* Семейство шрифтов */
   font-weight: normal; /* Нормальное начертание текста  */
   text-align: center;
 }
-p {
-  text-align: justify; /* Выравнивание по ширине */
-  margin-left: 60px; /* Отступ слева в пикселах */
-  margin-right: 10px; /* Отступ справа в пикселах */
- 
-}
+
 
 #header{
   width: 100px;
@@ -99,4 +94,23 @@ float:right;
 	max-width: 100%;
 	margin: 10px;
 }
+.parm img {
+ 
+  height: 60px;
+  border: 0px;
+  width: 60px;
+}
+p {
+text-align: justify; /* Выравнивание по ширине */
+margin-left: 30px; /* Отступ слева в пикселах */
+margin-right: 20px; /* Отступ справа в пикселах */
 
+}
+.p1{
+  text-indent: 5%;
+  font-size: 15pt;
+}
+.p2{
+  text-indent: 5%;
+  font-size: 11pt;
+}
